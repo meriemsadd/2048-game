@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jeu 2048 - Fun & Coloré</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>2048 Fun Game</h1>
+            <div class="scoreboard">
+                <div>Score : <span id="score">0</span></div>
+                <div>Meilleur : <span id="best">0</span></div>
+            </div>
+            <button id="new-game">Nouvelle Partie</button>
+        </header>
+        <div class="game-board" id="board">
+            <!-- Cases générées par JS -->
+        </div>
+        <p class="instructions">
+            Utilise les <strong>flèches du clavier</strong> ou les <strong>swipes</strong> pour déplacer les tuiles.<br>
+            Deux tuiles identiques fusionnent en une plus grande !
+        </p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
